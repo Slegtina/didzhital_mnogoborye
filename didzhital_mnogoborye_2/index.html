@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="slider_wrapper">
+            <div class="slider_slide">
+                <div class="slider_image">
+                    <img src="/img/image 1.png" id="slider_image_expand" onclick="show_modal_window()" alt="">
+                </div>
+                <div class="slider_image">
+                    <img src="/img/image 2.png"  id="slider_image_expand" alt="">
+                </div>
+                <div class="slider_image">
+                    <img src="/img/image 3.png" id="slider_image_expand"  alt="">
+                </div>
+            </div>   
+
+            <div class="slider_controls">
+                <span class="next" onclick="plusSlides(1)"></span>
+                <span class="prev" onclick="plusSlides(-1)"></span>
+            </div>
+            <div class="slider_active">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        <!-- <div class="modal_window" id="modal_window">
+            <div class="modal_buttons">
+                <a href="#" class="modal_button_save"></a>
+                <a href="#" class="modal_button_close" onclick="modal_button_close()"></a>
+            </div>
+            <div class="modal_image" id="modal_image_id">
+
+            </div>
+            <div class="modal_slider">
+                    
+            </div>
+        </div> -->
+    </div> 
+</body>
+    <script src="/script.js"></script>
+</html>
+
+
